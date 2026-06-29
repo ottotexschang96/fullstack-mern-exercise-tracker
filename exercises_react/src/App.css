@@ -1,0 +1,168 @@
+/**
+ * Shuang-Yuan Chang
+ * CSS styles for Exercise Tracker app
+ */
+
+/* Global page design */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #1a1a2e;
+  color: #eaeaea;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Header styles */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #16213e;
+  border-radius: 8px;
+}
+
+header h1 {
+  color: #e94560;
+  margin-bottom: 10px;
+}
+
+header p {
+  color: #b8b8b8;
+}
+
+/* Navigation styles */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #0f3460;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #16213e;
+}
+
+nav a,
+nav a:visited {
+  padding: 10px 20px;
+  margin: 0 5px;
+  color: #eaeaea;
+  background-color: #0f3460;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 1px solid #e94560;
+}
+
+nav a:hover {
+  background-color: #e94560;
+  color: #1a1a2e;
+}
+
+/* Main content */
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+article {
+  background-color: #16213e;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+article h2 {
+  color: #e94560;
+  margin-bottom: 20px;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tr th,
+tr td {
+  border: 1px solid #0f3460;
+  color: #eaeaea;
+  padding: 12px 15px;
+  text-align: left;
+}
+
+tr th {
+  background-color: #0f3460;
+  color: #e94560;
+}
+
+tr:nth-child(even) {
+  background-color: #1a1a2e;
+}
+
+tr:hover {
+  background-color: #0f3460;
+}
+
+/* Icon styles */
+td svg {
+  cursor: pointer;
+  font-size: 1.5em;
+  color: #b8b8b8;
+}
+
+td svg:hover {
+  color: #e94560;
+}
+
+/* Form styles */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+}
+
+label {
+  color: #b8b8b8;
+  font-weight: bold;
+}
+
+input,
+select {
+  padding: 10px;
+  border: 1px solid #0f3460;
+  border-radius: 5px;
+  background-color: #1a1a2e;
+  color: #eaeaea;
+  font-size: 1em;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border-color: #e94560;
+}
+
+button {
+  padding: 12px 20px;
+  background-color: #e94560;
+  color: #eaeaea;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #ff6b6b;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  color: #b8b8b8;
+  border-top: 1px solid #0f3460;
+}
